@@ -15,6 +15,6 @@ with open("students_gwa.txt") as input_file:
             students_gwa = gwa
             highest_student = names
 # print students name with highest GWA
-print("Name of student: ", highest_student)
-print("General Weighted Average : ", students_gwa)
+print("\033[33mName of student: ", highest_student)
+print("\033[92mGeneral Weighted Average : ", students_gwa)
 
