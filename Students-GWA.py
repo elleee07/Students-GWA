@@ -4,16 +4,17 @@
 # STUDENTS GWA
 with open("students_gwa.txt") as input_file:
     # possible lowest students gwa
-    highest_gwa = 4.00
+    students_gwa = 4.00
     highest_student = ""
     # read the txt.file (students_gwa.txt) and split it 
     for line in input_file:
         names, gwa_str = line.strip().split("-")
         # to get highest gwa
         gwa = float(gwa_str)
-        if gwa < highest_gwa:
-            highest_gwa = gwa
+        if gwa < students_gwa:
+            students_gwa = gwa
             highest_student = names
 # print students name with highest GWA
 print("Name of student: ", highest_student)
+print("General Weighted Average : ", students_gwa)
 
