@@ -19,4 +19,3 @@ print("\033[90m=" * 50)
 print("\033[33mName of student: ", highest_student)
 print("\033[90m=" * 50)
 print("\033[92mGeneral Weighted Average : ", students_gwa)
-
